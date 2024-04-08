@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constantin Brâncuși - Maestrul Sculpturii Moderne</title>
+    <link rel="stylesheet" href="css/still.css">
+    <style>
+        /* Alte stiluri CSS aici */
+        .bio-container {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .bio-image {
+            flex: 1 1 40%; /* Alocă 40% din spațiu pentru imagine */
+            padding-right: 20px; /* Spațiere între imagine și text */
+        }
+
+        .bio-image img {
+            width: 100%; /* Asigură-te că imaginea este responsivă */
+            height: auto;
+        }
+
+        .bio-text {
+            flex: 2 1 60%; /* Alocă 60% din spațiu pentru text */
+        }
+
+        /* Adaugă un max-width pentru containerul principal dacă este necesar */
+        main {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Ajustări pentru ecrane mici */
+        @media (max-width: 768px) {
+            .bio-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .bio-image {
+                flex: 0 0 auto;
+                padding-right: 0;
+                padding-bottom: 20px;
+            }
+
+            .bio-text {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biografie</h1>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Acasă</a></li>
+                <li><a href="biografie.html">Biografie</a></li>
+                <li><a href="sculpturi.html">Sculpturile Lui</a></li>
+                <li><a href="influente.html">Influențe și Moștenire</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro bio-container">
+            <div class="bio-image">
+                <img src="Imagini/constantin-brancusi-main-image.jpg" alt="Constantin Brâncuși">
+            </div>
+            <div class="bio-text">
+                <p>Constantin Brancusi a fost un sculptor roman cu contributii covarsitoare la innoirea limbajului si viziunii plastice in sculptura contemporana. Constantin Brancusi a fost ales postum membru al Academiei Romane.</p>
+                <p>Viziunea lui Brancusi asupra vietii era influentata atat de Platon cat si de conceptele filosofilor orientali.</p>
+                <p>Constantin Brancusi a eliberat sculptura de preponderenta imitatiei mecanice a naturii, a refuzat reprezentarea figurativa a realitatii, a preconizat exprimarea esentei lucrurilor, a dinamismului formei, a unit sensibilul cu spiritualul. In opera sa, Brancusi a oglindit felul de a gandi lumea a taranului roman.</p>
+                <p>Prin obarsia sa taraneasca, si-a aflat radacinile adanci ale operei sale in traditiile, miturile si functia magica a artei populare romanesti.</p>
+                <p>Brancusi este, neindoielnic, un asemenea moment al constiintei artei moderne, care concentreaza sensurile unei intregi ere a evolutiei spiritului creator. Reprezentant al miscarii artistice moderne, Constantin Brancusi este considerat de multi ca fiind cel important sculptor ai secolului al XX-lea. Sculpturile sale se remarca prin eleganta formei si utilizarea sensibila a materialelor, combinand simplitatea artei populare romanesti cu rafinamentul avantgardei pariziene.</p>
+                <p>Brancusi a dat veacului nostru constiinta formei pure, a asigurat trecerea de la reprezentarea figurativa a realitatii, la exprimarea esentei lucrurilor si a reinnoit in mod revolutionar limbajul plastic, imbogatindu-l cu o dimensiune spirituala. Verticalitatea, orizontalitatea, greutatea, densitatea cat si importanta acordata luminii si spatiului sunt trasaturile caracteristice ale creatiei lui Brancusi.</p>
+                <p>Din 1963 pana astazi, au aparut in toate partile lumii peste 50 de carti si monografii si mii de articole si studii despre Constantin Brancusi, determinand in mod decisiv locul lui ca artist genial si chiar ca "unul din cei mai mari creatori ai tuturor timpurilor" (Jean Cassou). In 1937, cunoscutul sculptor englez Henry Moore scria: " Brancusi a fost acela care a dat epocii noastre constiinta formei pure". Unul dintre cei mai importanti arhitecti contemporani, Frank Gehry indica cu precizie influenta pe care a avut-o asupra sa marele sculptor roman Constantin Brancusi.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Constantin Brâncuși. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>

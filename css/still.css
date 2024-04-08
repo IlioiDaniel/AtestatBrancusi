@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Schimbă fontul după preferințe */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Culoare text */
+    background-color: #f4f4f4; /* Culoare fundal */
+    padding: 20px;
+}
+
+/* Stilizarea antetului */
+header {
+    background: #005f73; /* Culoare fundal antet */
+    color: #ffffff; /* Culoare text antet */
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/* Stilizarea navigației */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Elementele de listă sunt afișate pe o singură linie */
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Culoare text link-uri */
+}
+
+/* Stilizarea conținutului principal */
+.content {
+    padding: 20px;
+    background: #ffffff; /* Fundal alb pentru conținut */
+    margin-top: 20px;
+}
+
+/* Stilizarea footer-ului */
+footer {
+    background: #333; /* Fundal închis pentru contrast */
+    color: #ffffff; /* Text alb pentru lizibilitate */
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.galerie {
+    margin-top: 20px;
+}
+
+.galerie h2 {
+    margin-bottom: 10px;
+}
+
+.galerie ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.galerie ul li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.galerie ul li a {
+    text-decoration: none;
+    color: #005f73;
+}
+
+.artwork-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuie spațiu între imagini */
+}
+
+.artwork {
+    width: calc(33.333% - 20px); /* Scade spațiu pentru margini */
+    margin-bottom: 30px;
+}
+
+.artwork img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+.artwork p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .artwork {
+        width: calc(50% - 20px); /* Două coloane pe dispozitive mai mici */
+    }
+}
+
+@media (max-width: 480px) {
+    .artwork {
+        width: 100%; /* O coloană pe dispozitive foarte mici */
+    }
+}
